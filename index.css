@@ -1,0 +1,349 @@
+body{
+
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    background-color: rgb(240, 121, 240);
+    padding: 10px;
+}
+.discover{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:start;
+    flex: 1;
+    width: 100%;
+}
+.discover h1{
+    font-size: 30px;
+    color: white;
+
+}
+.discover h2{
+     font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+
+}
+.buttonshop{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    
+    width: 100%;
+    align-items: start;
+    padding: 1rem;
+    
+}
+.now{
+    background-color:white;
+    color: rgb(19, 136, 182);
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.more{
+  color: white;
+    background-color: rgb(19, 136, 182);
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;  
+}
+
+
+.iphone{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 5px;
+    flex: 1;
+
+}
+.iphone img{
+    width: 300px;
+    border-radius: 8px;
+}
+.iphone h2{
+    font-size: 15px;
+    color: rgb(61, 58, 58);
+}
+.iphone h3{
+    color: rgb(35, 124, 159);
+}
+.shop{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.Smartphones img{
+    width: 250px;
+}
+.shop h1{
+  font-size: 30px;
+    color: rgb(61, 58, 58);
+}
+.cards{
+    
+    
+    display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 1rem;
+      
+      max-width: 1200px;
+
+    padding: 10px;
+    width: 100%;
+
+
+}
+.Smartphones{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:0 20px 20px rgba(0, 0, 0, 0.1);
+}
+.Smartphones h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.Smartphones a{
+
+    color: rgb(19, 136, 182);
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+
+    font-size: 20px;
+    text-decoration: none;
+
+}
+@media screen and ( max-width:550px) and (min-width:440px){
+  
+    .iphone img{
+        width: 100px;
+    }
+    .iphone{
+        display: flex;
+        flex: 0.6;
+
+    }
+
+}
+@media screen and ( max-width:440px) and (min-width:320px){
+
+       .iphone img{
+        width: 70px;
+    }
+    .iphone{
+        display: flex;
+        flex: 0.4;
+    
+}
+.discover h1,h2{
+    font-size: 10px;
+    
+}
+.now.more{
+    width: 50px;
+    font-size: 10px;
+    padding: 7px;
+}
+}
+body{
+    font-family: 'inter'sans-serif;
+    background-color: #fff;
+    color: #111;
+    padding: 40px;
+   
+}
+.products{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+   
+}
+.button1{
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 30px;
+    :hover{
+        background-color: skyblue;
+        box-shadow: none;
+    
+    }
+}
+.button1 button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    
+}
+.allcards{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #e3dcdc;
+    text-align: center;
+    width: 100%;
+
+}
+.label{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+}
+
+img{
+    height: 180px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+    }
+  @media screen and (max-width:406px) and ( min-width:440px) {
+ img{
+        width: 100px;
+ }
+}
+p{
+    font-size: 0.9rem;
+    color: #2f2d2b;
+    margin-bottom: 10px;
+}
+.stars{
+    font-size: 0.9rem;
+    color: #ffb400;
+    margin-bottom: 10px;
+
+}
+.stars span{
+    color: #555;
+    font-weight: normal;
+    margin: 5px;
+}
+.money{
+    margin-bottom: 15px;
+    gap: 10px;
+}
+h1{
+    font-size: 20px;
+}
+.add-cart{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer
+}
+.add-cart:hover{
+    background-color: #0056b3;;
+}
+.money button{
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    border: none;
+}
+.money p1 {
+    font-size: 15px;
+    gap: 10px;
+}
+.money del{
+    font-size: 15px;
+}
+.new{
+    width: 20%;
+    border-radius: 20px;
+    background-color:green;
+    border: none;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+.sale{
+     width: 20%;
+    border-radius: 20px;
+    background-color:red;
+    border: none;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+.footer{
+     background-color: #007bff;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    gap: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+
+
+}
+ button{
+    color: white;
+    font-size: 10px;
+    flex: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #007bff;
+    border: none;
+    
+}
+    

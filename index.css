@@ -1,9 +1,10 @@
-body{
+body {
 
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.main{
+
+.main {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -11,7 +12,8 @@ body{
     justify-content: space-between;
 
 }
-.top{
+
+.top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,37 +23,42 @@ body{
     background-color: rgb(240, 121, 240);
     padding: 10px;
 }
-.discover{
+
+.discover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items:start;
+    align-items: start;
     flex: 1;
     width: 100%;
 }
-.discover h1{
+
+.discover h1 {
     font-size: 30px;
     color: white;
 
 }
-.discover h2{
-     font-size: 15px;
+
+.discover h2 {
+    font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:white;
+    color: white;
 
 }
-.buttonshop{
+
+.buttonshop {
     display: flex;
     flex-direction: row;
-    gap:2rem;
-    
+    gap: 2rem;
+
     width: 100%;
     align-items: start;
     padding: 1rem;
-    
+
 }
-.now{
-    background-color:white;
+
+.now {
+    background-color: white;
     color: rgb(19, 136, 182);
     padding: 12px;
     font-weight: bold;
@@ -59,18 +66,19 @@ body{
     border-radius: 5px;
     font-size: 15px;
 }
-.more{
-  color: white;
+
+.more {
+    color: white;
     background-color: rgb(19, 136, 182);
     padding: 12px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    font-size: 15px;  
+    font-size: 15px;
 }
 
 
-.iphone{
+.iphone {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -81,18 +89,22 @@ body{
     flex: 1;
 
 }
-.iphone img{
+
+.iphone img {
     width: 300px;
     border-radius: 8px;
 }
-.iphone h2{
+
+.iphone h2 {
     font-size: 15px;
     color: rgb(61, 58, 58);
 }
-.iphone h3{
+
+.iphone h3 {
     color: rgb(35, 124, 159);
 }
-.shop{
+
+.shop {
 
     display: flex;
     flex-direction: column;
@@ -100,44 +112,50 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.Smartphones img{
+
+.Smartphones img {
     width: 250px;
 }
-.shop h1{
-  font-size: 30px;
+
+.shop h1 {
+    font-size: 30px;
     color: rgb(61, 58, 58);
 }
-.cards{
-    
-    
+
+.cards {
+
+
     display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-      gap: 1rem;
-      
-      max-width: 1200px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 1rem;
+
+    max-width: 1200px;
 
     padding: 10px;
     width: 100%;
 
 
 }
-.Smartphones{
+
+.Smartphones {
     display: flex;
     flex-direction: column;
     gap: 10px;
-     justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
-    background-color:white;
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
-    box-shadow:0 20px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
 }
-.Smartphones h2{
+
+.Smartphones h2 {
     text-align: center;
     font-size: 20px;
     font-weight: 600px;
 }
-.Smartphones a{
+
+.Smartphones a {
 
     color: rgb(19, 136, 182);
     padding: 12px;
@@ -148,78 +166,87 @@ body{
     text-decoration: none;
 
 }
-@media screen and ( max-width:550px) and (min-width:440px){
-  
-    .iphone img{
+
+@media screen and (max-width:550px) and (min-width:440px) {
+
+    .iphone img {
         width: 100px;
     }
-    .iphone{
+
+    .iphone {
         display: flex;
         flex: 0.6;
 
     }
 
 }
-@media screen and ( max-width:440px) and (min-width:320px){
 
-       .iphone img{
+@media screen and (max-width:440px) and (min-width:320px) {
+
+    .iphone img {
         width: 70px;
     }
-    .iphone{
+
+    .iphone {
         display: flex;
         flex: 0.4;
-    
+       
+    }
+
+    .discover h1,
+    h2 {
+        font-size: 10px;
+
+    }
+
+    .now.more {
+        width: 50px;
+        font-size: 10px;
+        padding: 7px;
+    }
+    .top{
+        width: 80px;
+    }
 }
-.discover h1,h2{
-    font-size: 10px;
-    
-}
-.now.more{
-    width: 50px;
-    font-size: 10px;
-    padding: 7px;
-}
-}
-body{
-    font-family: 'inter'sans-serif;
-    background-color: #fff;
-    color: #111;
-    padding: 40px;
-   
-}
-.products{
+
+.products {
     font-size: 2.5rem;
     margin-bottom: 20px;
-   
+
 }
-.button1{
+
+.button1 {
     align-items: end;
     justify-content: end;
     display: flex;
     flex-direction: row;
     gap: 10px;
     margin-bottom: 30px;
-    :hover{
+
+    :hover {
         background-color: skyblue;
         box-shadow: none;
-    
+
     }
 }
-.button1 button{
+
+.button1 button {
     padding: 10px;
     border-radius: 10px;
     border: none;
 }
-.cards{
+
+.cards {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    
+
 }
-.allcards{
+
+.allcards {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -230,7 +257,8 @@ body{
     width: 100%;
 
 }
-.label{
+
+.label {
     position: absolute;
     top: 15px;
     left: 15px;
@@ -240,7 +268,7 @@ body{
     color: #fff;
 }
 
-img{
+img {
     height: 180px;
     width: 200px;
     display: flex;
@@ -248,37 +276,44 @@ img{
     justify-content: center;
     margin-bottom: 15px;
     border-radius: 10px;
-    
-    }
-  @media screen and (max-width:406px) and ( min-width:440px) {
- img{
-        width: 100px;
- }
+
 }
-p{
+
+@media screen and (max-width:406px) and (min-width:440px) {
+    img {
+        width: 100px;
+    }
+}
+
+p {
     font-size: 0.9rem;
     color: #2f2d2b;
     margin-bottom: 10px;
 }
-.stars{
+
+.stars {
     font-size: 0.9rem;
     color: #ffb400;
     margin-bottom: 10px;
 
 }
-.stars span{
+
+.stars span {
     color: #555;
     font-weight: normal;
     margin: 5px;
 }
-.money{
+
+.money {
     margin-bottom: 15px;
     gap: 10px;
 }
-h1{
+
+h1 {
     font-size: 20px;
 }
-.add-cart{
+
+.add-cart {
     background-color: #007bff;
     color: white;
     border: none;
@@ -286,55 +321,64 @@ h1{
     border-radius: 6px;
     cursor: pointer
 }
-.add-cart:hover{
-    background-color: #0056b3;;
+
+.add-cart:hover {
+    background-color: #0056b3;
+    ;
 }
-.money button{
+
+.money button {
     background-color: red;
     border-radius: 10px;
     padding: 5px;
     color: white;
     border: none;
 }
+
 .money p1 {
     font-size: 15px;
     gap: 10px;
 }
-.money del{
+
+.money del {
     font-size: 15px;
 }
-.new{
+
+.new {
     width: 20%;
     border-radius: 20px;
-    background-color:green;
+    background-color: green;
     border: none;
     color: white;
     position: relative;
     bottom: 10px;
     right: 10px;
 }
-.sale{
-     width: 20%;
+
+.sale {
+    width: 20%;
     border-radius: 20px;
-    background-color:red;
+    background-color: red;
     border: none;
     color: white;
     position: relative;
     bottom: 10px;
     right: 10px;
 }
-.footer{
-     background-color: #007bff;
+
+.footer {
+    background-color: #007bff;
     width: 30%;
     border-radius: 20px;
     border: none;
     gap: 20px;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
 
 
 }
- button{
+
+button {
     color: white;
     font-size: 10px;
     flex: none;
@@ -344,6 +388,6 @@ h1{
     align-items: center;
     background-color: #007bff;
     border: none;
-    
+
 }
     

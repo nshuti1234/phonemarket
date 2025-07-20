@@ -1,0 +1,273 @@
+body{
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.top{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.tags{
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.tags a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.tags button{
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    padding: 0px 10px;
+    word-spacing: 10px;
+    cursor: pointer; 
+}
+
+
+.tags a:hover{
+    color: red;
+}
+.top h1{
+    font-size: 23px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    color: rgb(38, 155, 202);
+}
+.welcome{
+    background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+}
+.welcome h1{
+    color: white;
+    font-size: 60px;
+}
+.welcome p{
+    color: white;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.viewMenu{
+    display:flex ;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.viewMenu button:nth-child(1){
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px;
+}
+.viewMenu button:nth-child(1):hover{
+    background-color: transparent;
+    color: white;
+      border: 1px solid white;
+      cursor: pointer;
+      transition: 0.5s;
+}
+.viewMenu button:nth-child(2){
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    
+    padding: 15px;
+    background-color: transparent;
+}
+.viewMenu button:nth-child(2):hover{
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.menu h1{
+    color: #667eea;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.buttons{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.buttons button{
+    border-radius: 15px;
+    font-size: 10px;
+    padding: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: white;
+    background-color: red;
+    transition: 0.5s;
+}
+.card1{
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:1rem;
+}
+.food{
+    background-color: green;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: start;
+    padding: 10px;
+    background-color: rgb(234, 228, 228);
+    
+}
+.word{
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+
+}
+.word h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.word p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px; 
+}
+.word h2{
+    color: rgb(241, 88, 88);
+}
+.food img{
+    width: 100%;
+    height: 300px;
+}
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px;
+     align-items: center;
+    justify-content:center;
+    gap: 2rem;
+}
+.story1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    font-size: 30px; 
+    padding: 1rem;
+    width: 100%;
+    color: rgb(38, 155, 202);
+    margin-left: 4rem;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    flex: 1;
+    
+
+}
+.story p{
+    color: rgb(89, 85, 85);
+    text-align: left;
+    padding:10px;
+
+    font-size: 19px;
+    
+    
+}
+.storycards{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
+    border-radius: 15px;
+    gap: 5px;
+    
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+    background-color: rgb(250, 247, 247);
+    
+
+}
+.now{
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content:start;
+    align-items: center;
+    margin-left: 2rem;
+    
+    
+
+}
+.house{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+
+    padding: 1rem;
+    flex: 1;
+    width: 100%;
+
+}
+.house img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
